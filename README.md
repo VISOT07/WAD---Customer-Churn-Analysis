@@ -1,5 +1,20 @@
 # Customer Churn Prediction App
 
+## Requirements
+
+### Core Dependencies
+- `streamlit` >= 1.50
+- `pandas` >= 2.0
+- `numpy` >= 1.26
+- `scikit-learn` >= 1.4
+- `xgboost` >= 2.0
+- `plotly` >= 5.20
+- `joblib` >= 1.3
+
+### Only for the Notebook (`churn_analysis.ipynb`)
+- `matplotlib` >= 3.8
+- `notebook` >= 7.0
+
 A Streamlit web app that uses a machine learning model to predict which customers are likely to churn, explain why, and suggest actions.
 
 ## Project structure
